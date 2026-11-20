@@ -29,17 +29,13 @@ $plans   = get_sub_field( 'plans' );
 					$monthly_price = round( $annual_price / 12 * 1.25 );
 				?>
 					<div class="pixasaas-pricing__card" data-monthly-price="<?php echo esc_attr( $monthly_price ); ?>" data-annual-price="<?php echo esc_attr( intval( $annual_price ) ); ?>">
-						<?php if ( ! empty( $plan['card_image'] ) ) : ?>
-							<div class="pixasaas-pricing__card-image">
-								<img src="<?php echo esc_url( $plan['card_image']['url'] ); ?>" alt="<?php echo esc_attr( $plan['name'] ); ?>" loading="lazy">
-							</div>
-						<?php endif; ?>
 						<div class="pixasaas-pricing__card-body">
+							<?php if ( ! empty( $plan['card_image'] ) ) : ?>
+								<div class="pixasaas-pricing__card-image">
+									<img src="<?php echo esc_url( $plan['card_image']['url'] ); ?>" alt="<?php echo esc_attr( $plan['name'] ); ?>" loading="lazy">
+								</div>
+							<?php endif; ?>
 							<h3 class="pixasaas-pricing__plan-name"><?php echo esc_html( $plan['name'] ); ?></h3>
-							<div class="pixasaas-pricing__plan-price">
-								<span class="pixasaas-pricing__price-amount">$<?php echo esc_html( $monthly_price ); ?></span>
-								<span class="pixasaas-pricing__price-period">/month</span>
-							</div>
 							<?php if ( ! empty( $plan['features'] ) ) : ?>
 								<ul class="pixasaas-pricing__features">
 									<?php foreach ( $plan['features'] as $feature ) : ?>
@@ -50,6 +46,12 @@ $plans   = get_sub_field( 'plans' );
 									<?php endforeach; ?>
 								</ul>
 							<?php endif; ?>
+							<div class="pixasaas-pricing__divider"></div>
+							<div class="pixasaas-pricing__plan-price">
+								<span class="pixasaas-pricing__price-amount">$<?php echo esc_html( $monthly_price ); ?></span>
+								<span class="pixasaas-pricing__price-period">/ per month</span>
+							</div>
+							<p class="pixasaas-pricing__plan-desc">Individuals who earn their own income through employment and require digital financial services.</p>
 							<a href="<?php echo esc_url( $plan['cta_url'] ?? '#' ); ?>" class="pixasaas-btn pixasaas-btn--primary pixasaas-pricing__subscribe"><?php echo esc_html( $plan['cta_text'] ?? 'Subscribe' ); ?></a>
 						</div>
 					</div>
@@ -61,33 +63,32 @@ $plans   = get_sub_field( 'plans' );
 						'name'          => 'Basic',
 						'monthly_price' => '100',
 						'annual_price'  => '960',
-						'features'      => array( 'Basic card processing', 'Online gateway integration', 'Low transaction charges' ),
+						'features'      => array( 'Basic card processing.', 'Online gateway integration.', 'Low transaction charges.' ),
+						'image'         => 'pricing-basic',
 					),
 					array(
 						'name'          => 'Exclusive',
 						'monthly_price' => '200',
 						'annual_price'  => '1920',
-						'features'      => array( 'Multi-currency support', 'Advanced fraud prevention', 'Integration e-commerce platforms' ),
+						'features'      => array( 'Multi-currency support.', 'Advanced fraud prevention.', 'Integration e-commerce platforms.' ),
+						'image'         => 'pricing-exclusive',
 					),
 					array(
 						'name'          => 'Premium',
 						'monthly_price' => '300',
 						'annual_price'  => '2880',
-						'features'      => array( 'Customized solutions', 'High-level security compliance', 'API access for integration' ),
+						'features'      => array( 'Customized solutions.', 'High-level security compliance.', 'API access for integration.' ),
+						'image'         => 'pricing-premium',
 					),
 				);
 				foreach ( $default_plans as $plan ) :
 				?>
 					<div class="pixasaas-pricing__card" data-monthly-price="<?php echo esc_attr( $plan['monthly_price'] ); ?>" data-annual-price="<?php echo esc_attr( $plan['annual_price'] ); ?>">
-						<div class="pixasaas-pricing__card-image">
-							<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/pricing-' . strtolower( $plan['name'] ) . '.png' ); ?>" alt="<?php echo esc_attr( $plan['name'] ); ?>" loading="lazy">
-						</div>
 						<div class="pixasaas-pricing__card-body">
-							<h3 class="pixasaas-pricing__plan-name"><?php echo esc_html( $plan['name'] ); ?></h3>
-							<div class="pixasaas-pricing__plan-price">
-								<span class="pixasaas-pricing__price-amount">$<?php echo esc_html( $plan['monthly_price'] ); ?></span>
-								<span class="pixasaas-pricing__price-period">/month</span>
+							<div class="pixasaas-pricing__card-image">
+								<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/' . $plan['image'] . '.png' ); ?>" alt="<?php echo esc_attr( $plan['name'] ); ?>" loading="lazy">
 							</div>
+							<h3 class="pixasaas-pricing__plan-name"><?php echo esc_html( $plan['name'] ); ?></h3>
 							<ul class="pixasaas-pricing__features">
 								<?php foreach ( $plan['features'] as $feature ) : ?>
 									<li class="pixasaas-pricing__feature">
@@ -96,6 +97,12 @@ $plans   = get_sub_field( 'plans' );
 									</li>
 								<?php endforeach; ?>
 							</ul>
+							<div class="pixasaas-pricing__divider"></div>
+							<div class="pixasaas-pricing__plan-price">
+								<span class="pixasaas-pricing__price-amount">$<?php echo esc_html( $plan['monthly_price'] ); ?></span>
+								<span class="pixasaas-pricing__price-period">/ per month</span>
+							</div>
+							<p class="pixasaas-pricing__plan-desc">Individuals who earn their own income through employment and require digital financial services.</p>
 							<a href="#" class="pixasaas-btn pixasaas-btn--primary pixasaas-pricing__subscribe">Subscribe</a>
 						</div>
 					</div>

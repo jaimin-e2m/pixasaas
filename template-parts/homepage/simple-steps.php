@@ -6,7 +6,7 @@
  */
 
 $heading     = get_sub_field( 'heading' ) ?: 'Join Us in Four Simple Steps';
-$description = get_sub_field( 'description' ) ?: 'Trust plays a paramount role in the domain of financial services, and at PixeSaaS, we place it at the core of every interaction.';
+$description = get_sub_field( 'description' ) ?: 'Trust plays a paramount role in establishing and maintaining strong relationships with customers.';
 $steps       = get_sub_field( 'steps' );
 ?>
 
@@ -45,6 +45,7 @@ $steps       = get_sub_field( 'steps' );
 			<div class="pixasaas-steps__grid">
 				<div class="pixasaas-steps__card pixasaas-steps__card--1 pixasaas-steps__card--green">
 					<div class="pixasaas-steps__card-content">
+						<span class="pixasaas-steps__card-number">01</span>
 						<h3 class="pixasaas-steps__card-title">Prepare Document</h3>
 						<p class="pixasaas-steps__card-desc">Financial services trust is paramount, and PixeSaaS builds it into every transaction.</p>
 					</div>
@@ -54,6 +55,7 @@ $steps       = get_sub_field( 'steps' );
 				</div>
 				<div class="pixasaas-steps__card pixasaas-steps__card--2 pixasaas-steps__card--cyan">
 					<div class="pixasaas-steps__card-content">
+						<span class="pixasaas-steps__card-number">02</span>
 						<h3 class="pixasaas-steps__card-title">Make Account</h3>
 						<p class="pixasaas-steps__card-desc">Financial trust is key, and PixeSaaS prioritizes it in every interaction.</p>
 						<a href="#" class="pixasaas-steps__card-link">
@@ -64,6 +66,7 @@ $steps       = get_sub_field( 'steps' );
 				</div>
 				<div class="pixasaas-steps__card pixasaas-steps__card--3 pixasaas-steps__card--pink">
 					<div class="pixasaas-steps__card-content">
+						<span class="pixasaas-steps__card-number">03</span>
 						<h3 class="pixasaas-steps__card-title">Card Activation</h3>
 						<p class="pixasaas-steps__card-desc">Trust in financial services is crucial; PixeSaaS embeds it in all it does.</p>
 						<a href="#" class="pixasaas-steps__card-link">
@@ -74,6 +77,7 @@ $steps       = get_sub_field( 'steps' );
 				</div>
 				<div class="pixasaas-steps__card pixasaas-steps__card--4 pixasaas-steps__card--yellow">
 					<div class="pixasaas-steps__card-content">
+						<span class="pixasaas-steps__card-number">04</span>
 						<h3 class="pixasaas-steps__card-title">Enjoy!</h3>
 						<p class="pixasaas-steps__card-desc">PixeSaaS places trust at the heart of financial services, every time.</p>
 						<a href="#" class="pixasaas-steps__card-link">

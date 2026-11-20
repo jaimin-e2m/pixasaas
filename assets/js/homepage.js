@@ -40,10 +40,10 @@
 			if (amountEl && periodEl && monthlyPrice && annualPrice) {
 				if (isAnnual) {
 					amountEl.textContent = '$' + annualPrice;
-					periodEl.textContent = '/year';
+					periodEl.textContent = '/ per year';
 				} else {
 					amountEl.textContent = '$' + monthlyPrice;
-					periodEl.textContent = '/month';
+					periodEl.textContent = '/ per month';
 				}
 			}
 		});

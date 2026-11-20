@@ -6,7 +6,7 @@
  */
 
 $heading     = get_sub_field( 'heading' ) ?: 'Custom-made reports to make great decisions';
-$description = get_sub_field( 'description' ) ?: 'PixeSaaS provides tailor-made reports that enable informed and effective decision-making for your financial needs.';
+$description = get_sub_field( 'description' ) ?: 'We have considered our solutions to support every stage of your growth. We are the fastest and easiest way to launch SaaS.';
 $cta_text    = get_sub_field( 'cta_text' ) ?: 'Get started now';
 $cta_url     = get_sub_field( 'cta_url' ) ?: '#';
 $dashboard_image = get_sub_field( 'dashboard_image' );

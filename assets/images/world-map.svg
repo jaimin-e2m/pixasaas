@@ -57,19 +57,4 @@
     <circle cx="890" cy="340" r="3"/><circle cx="900" cy="340" r="3"/><circle cx="910" cy="340" r="3"/><circle cx="920" cy="340" r="3"/>
     <circle cx="900" cy="350" r="3"/><circle cx="910" cy="350" r="3"/>
   </g>
-  <!-- Location indicators -->
-  <g>
-    <circle cx="240" cy="180" r="8" fill="#fbd550" opacity="0.9"/>
-    <circle cx="240" cy="180" r="4" fill="#000"/>
-    <circle cx="310" cy="300" r="8" fill="#c9f269" opacity="0.9"/>
-    <circle cx="310" cy="300" r="4" fill="#000"/>
-    <circle cx="570" cy="160" r="8" fill="#fbd550" opacity="0.9"/>
-    <circle cx="570" cy="160" r="4" fill="#000"/>
-    <circle cx="590" cy="250" r="8" fill="#c9f269" opacity="0.9"/>
-    <circle cx="590" cy="250" r="4" fill="#000"/>
-    <circle cx="720" cy="170" r="8" fill="#fbd550" opacity="0.9"/>
-    <circle cx="720" cy="170" r="4" fill="#000"/>
-    <circle cx="900" cy="320" r="8" fill="#c9f269" opacity="0.9"/>
-    <circle cx="900" cy="320" r="4" fill="#000"/>
-  </g>
 </svg>

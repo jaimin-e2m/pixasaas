@@ -27,7 +27,7 @@ $card_image  = get_sub_field( 'card_image' );
 								<span class="pixasaas-finance__chat-time">3h ago</span>
 							</div>
 						</div>
-						<p class="pixasaas-finance__chat-message">Hello everyone, is there any update about banking?</p>
+						<p class="pixasaas-finance__chat-message">Developing a banking experience that offers greater satisfaction.</p>
 					</div>
 
 					<div class="pixasaas-finance__transactions">
@@ -90,18 +90,20 @@ $card_image  = get_sub_field( 'card_image' );
 				<div class="pixasaas-finance__features">
 					<div class="pixasaas-finance__feature">
 						<div class="pixasaas-finance__feature-icon">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14l-4-4 1.41-1.41L11 13.17l5.59-5.59L18 9l-7 7z" fill="#000"/></svg>
 						</div>
 						<div class="pixasaas-finance__feature-text">
 							<h3 class="pixasaas-finance__feature-title">Manage your spending and save</h3>
+							<p class="pixasaas-finance__feature-desc">Manage your spending and save Stay on top of your spending by tracking what's left after the bills are paid.</p>
 						</div>
 					</div>
 					<div class="pixasaas-finance__feature">
 						<div class="pixasaas-finance__feature-icon">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 9h-2v2H9v-2H7v-2h2V7h2v2h2v2zm3 6H8v-2h8v2zm0-4h-3V9h3v4z" fill="#000"/></svg>
 						</div>
 						<div class="pixasaas-finance__feature-text">
 							<h3 class="pixasaas-finance__feature-title">Easily view and manage your bills</h3>
+							<p class="pixasaas-finance__feature-desc">See where money is coming in and how much is going out from your accounts.</p>
 						</div>
 					</div>
 				</div>

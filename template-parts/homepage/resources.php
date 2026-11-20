@@ -41,9 +41,9 @@ $posts   = get_sub_field( 'posts' );
 			<?php else : ?>
 				<?php
 				$default_posts = array(
-					array( 'title' => 'The Next-Generation of Payment Cards and their Impact', 'category' => 'Cash', 'date' => 'Nov 7, 2024', 'img' => 'blog-1.png' ),
-					array( 'title' => 'The Next-Generation of Payment Cards and their Impact', 'category' => 'Cards', 'date' => 'Nov 7, 2024', 'img' => 'blog-2.png' ),
-					array( 'title' => 'The Next-Generation of Payment Cards and their Impact', 'category' => 'Transfers', 'date' => 'Nov 7, 2024', 'img' => 'blog-3.png' ),
+					array( 'title' => 'Choosing the Right Payment Solution for Your Business', 'category' => 'Cash', 'date' => 'Sep 4, 2023', 'img' => 'blog-1.png' ),
+					array( 'title' => 'Secure Payment Solutions: Protecting Your Financial', 'category' => 'Cards', 'date' => 'March 8, 2023', 'img' => 'blog-2.png' ),
+					array( 'title' => 'Mobile Payment Solutions: The Future of Transactions', 'category' => 'Transfers', 'date' => 'March 25, 2023', 'img' => 'blog-3.png' ),
 				);
 				foreach ( $default_posts as $post_item ) :
 				?>

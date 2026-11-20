@@ -923,6 +923,20 @@
 	opacity: 0.7;
 }
 
+.pixasaas-steps__card-number {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #c9f269;
+	font-weight: 600;
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
 .pixasaas-steps__card-image img {
 	width: 100%;
 }
@@ -1020,57 +1034,36 @@
 
 .pixasaas-pricing__card {
 	position: relative;
-	padding-top: 96px;
-}
-
-.pixasaas-pricing__card-image {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 200px;
-	z-index: 2;
-}
-
-.pixasaas-pricing__card-image img {
-	width: 100%;
 }
 
 .pixasaas-pricing__card-body {
 	background: #ffffff;
 	border: 1px solid #000000;
 	border-radius: 15px;
-	padding: 120px 30px 30px;
+	padding: 30px;
+}
+
+.pixasaas-pricing__card-image {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.pixasaas-pricing__card-image img {
+	width: 100%;
+	border-radius: 10px;
 }
 
 .pixasaas-pricing__plan-name {
 	font-weight: 400;
 	font-size: 25px;
 	color: #000000;
-	margin-bottom: 10px;
-}
-
-.pixasaas-pricing__plan-price {
-	margin-bottom: 25px;
-}
-
-.pixasaas-pricing__price-amount {
-	font-weight: 500;
-	font-size: 49px;
-	line-height: 59.3px;
-	color: #000000;
-}
-
-.pixasaas-pricing__price-period {
-	font-weight: 400;
-	font-size: 20px;
-	color: #666666;
+	margin-bottom: 15px;
 }
 
 .pixasaas-pricing__features {
 	list-style: none;
 	padding: 0;
-	margin: 0 0 30px;
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
@@ -1087,6 +1080,37 @@
 
 .pixasaas-pricing__feature svg {
 	flex-shrink: 0;
+}
+
+.pixasaas-pricing__divider {
+	height: 1px;
+	background: #e5e5e5;
+	margin: 25px 0;
+}
+
+.pixasaas-pricing__plan-price {
+	margin-bottom: 15px;
+}
+
+.pixasaas-pricing__price-amount {
+	font-weight: 500;
+	font-size: 49px;
+	line-height: 59.3px;
+	color: #000000;
+}
+
+.pixasaas-pricing__price-period {
+	font-weight: 400;
+	font-size: 20px;
+	color: #666666;
+}
+
+.pixasaas-pricing__plan-desc {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666666;
+	margin-bottom: 25px;
 }
 
 .pixasaas-pricing__subscribe {
