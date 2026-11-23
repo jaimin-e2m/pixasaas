@@ -196,7 +196,7 @@
 .pixasaas-header__actions {
 	display: flex;
 	align-items: center;
-	gap: 20px;
+	gap: 35px;
 }
 
 .pixasaas-header__login {
@@ -492,7 +492,7 @@
 	min-width: 517px;
 	background: #f9f9fb;
 	border-radius: 20px;
-	padding: 42px;
+	padding: 42px 42px 0;
 }
 
 .pixasaas-finance__card-img {
@@ -599,7 +599,7 @@
 	font-size: 49px;
 	line-height: 59.3px;
 	color: #000000;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 .pixasaas-finance__features {
@@ -672,7 +672,7 @@
 	font-size: 49px;
 	line-height: 59.3px;
 	color: #000000;
-	margin-bottom: 20px;
+	margin-bottom: 35px;
 }
 
 .pixasaas-reports__description {
@@ -680,7 +680,7 @@
 	font-size: 16px;
 	line-height: 19.36px;
 	color: #666666;
-	margin-bottom: 40px;
+	margin-bottom: 35px;
 }
 
 .pixasaas-reports__dashboard {
@@ -758,14 +758,14 @@
 	font-size: 61px;
 	line-height: 73.82px;
 	color: #000000;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .pixasaas-globe__map {
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 
 .pixasaas-globe__map-img {
@@ -822,7 +822,7 @@
 
 .pixasaas-steps__header {
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .pixasaas-steps__heading {
@@ -830,14 +830,14 @@
 	font-size: 61px;
 	line-height: 73.82px;
 	color: #000000;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .pixasaas-steps__description {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 24.2px;
-	color: #666666;
+	color: #000000;
 	max-width: 600px;
 	margin: 0 auto;
 }
@@ -967,7 +967,7 @@
 	font-size: 61px;
 	line-height: 73.82px;
 	color: #000000;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 .pixasaas-pricing__toggle {
@@ -975,7 +975,7 @@
 	align-items: center;
 	justify-content: center;
 	gap: 15px;
-	margin-bottom: 60px;
+	margin-bottom: 55px;
 }
 
 .pixasaas-pricing__toggle-label {
@@ -1123,7 +1123,7 @@
    TESTIMONIALS SECTION
    ============================================= */
 .pixasaas-testimonials {
-	padding: 80px 0;
+	padding: 40px 0;
 	background: #ffffff;
 }
 
@@ -1145,7 +1145,7 @@
 	line-height: 73.82px;
 	color: #000000;
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 90px;
 }
 
 .pixasaas-testimonials__grid {
@@ -1234,7 +1234,7 @@
 	font-size: 61px;
 	line-height: 73.82px;
 	color: #000000;
-	margin-bottom: 60px;
+	margin-bottom: 10px;
 }
 
 .pixasaas-brands__grid {
@@ -1293,7 +1293,7 @@
 
 .pixasaas-trial__content {
 	flex: 1;
-	padding: 80px 0;
+	padding: 0;
 }
 
 .pixasaas-trial__heading {
@@ -1301,7 +1301,7 @@
 	font-size: 61px;
 	line-height: 73.82px;
 	color: #000000;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .pixasaas-trial__description {
@@ -1309,7 +1309,7 @@
 	font-size: 20px;
 	line-height: 24.2px;
 	color: #666666;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .pixasaas-trial__form-row {
@@ -1424,7 +1424,7 @@
 	line-height: 73.82px;
 	color: #000000;
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 
 .pixasaas-resources__grid {
@@ -1511,7 +1511,7 @@
 	margin: 0 auto;
 	padding: 0 20px;
 	display: flex;
-	gap: 60px;
+	gap: 100px;
 }
 
 @media (min-width: 1440px) {
@@ -1530,7 +1530,7 @@
 	font-size: 49px;
 	line-height: 59.3px;
 	color: #000000;
-	margin-bottom: 30px;
+	margin-bottom: 45px;
 }
 
 .pixasaas-footer__col-title {
@@ -1538,7 +1538,7 @@
 	font-size: 25px;
 	line-height: 30.26px;
 	color: #000000;
-	margin-bottom: 20px;
+	margin-bottom: 35px;
 }
 
 .pixasaas-footer__links li {
@@ -1620,7 +1620,7 @@
 
 .pixasaas-copyright__links {
 	display: flex;
-	gap: 30px;
+	gap: 50px;
 }
 
 .pixasaas-copyright__links a {
@@ -1787,10 +1787,18 @@
 		margin: 0 auto;
 	}
 
+	.pixasaas-testimonials__heading {
+		margin-bottom: 70px;
+	}
+
 	.pixasaas-testimonials__grid {
 		flex-direction: column;
 		gap: 50px;
 		align-items: center;
+	}
+
+	.pixasaas-brands__heading {
+		margin-bottom: 30px;
 	}
 
 	.pixasaas-brands__grid {
@@ -1836,8 +1844,22 @@
 		padding: 15px 20px;
 	}
 
+	.pixasaas-header__logo-link {
+		white-space: nowrap;
+	}
+
+	.pixasaas-header__logo-icon svg {
+		width: 28px;
+		height: 28px;
+	}
+
+	.pixasaas-header__logo-text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
 	.pixasaas-header__actions {
-		gap: 10px;
+		gap: 8px;
 	}
 
 	.pixasaas-header__cta {
@@ -1977,9 +1999,35 @@
 		font-size: 36px;
 	}
 
+	.pixasaas-testimonials {
+		padding: 40px 0;
+	}
+
+	.pixasaas-testimonials__heading {
+		margin-bottom: 40px;
+	}
+
+	.pixasaas-testimonials__quote-icon {
+		position: static;
+		margin-bottom: 15px;
+	}
+
+	.pixasaas-testimonials__quote-icon svg {
+		width: 42px;
+		height: 42px;
+	}
+
+	.pixasaas-testimonials__card {
+		padding: 20px;
+	}
+
 	.pixasaas-testimonials__text {
 		font-size: 20px;
 		line-height: 26px;
+	}
+
+	.pixasaas-brands__heading {
+		margin-bottom: 20px;
 	}
 
 	.pixasaas-brands__grid {
@@ -2003,7 +2051,15 @@
 	}
 
 	.pixasaas-trial__content {
-		padding: 40px 0;
+		padding: 0;
+	}
+
+	.pixasaas-trial__heading {
+		margin-bottom: 15px;
+	}
+
+	.pixasaas-trial__description {
+		margin-bottom: 20px;
 	}
 
 	.pixasaas-trial__form-row {
